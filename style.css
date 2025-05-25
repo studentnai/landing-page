@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 16px 200px 100px;
+  justify-content: center;
 
   background-color: #1f2937;
 }
@@ -76,16 +77,20 @@ button {
 
   color: white;
   font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+
+
 }
 
 .sign-head {
     border: 0;
-    border-radius: 10px;
+    
 }
 
 
 .content {
-    padding: 50px 0;
+    padding: 50px 0 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,13 +113,61 @@ button {
 
 }
 
-.cards img {
+img {
     border-radius: 15px;
 }
+.cards img {
+  border: 3px solid #3882f6;
+}
 
+.quote-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 300px;
+}
 .quote {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
+}
+
+.quote footer {
+  text-align: end;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 100px 200px;
+  padding: 50px 50px;
+
+  border-radius: 10px;
+}
+
+.text {
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.call {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
