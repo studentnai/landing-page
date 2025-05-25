@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 16px 200px 100px;
-  justify-content: center;
 
   background-color: #1f2937;
 }
@@ -24,9 +23,12 @@ body {
 ul {
   display: flex;
 }
-.header-top,
-.header-bottom {
+.header-top {
   justify-content: space-between;
+}
+.header-bottom {
+  justify-content: center;
+  gap: 46px;
 }
 ul {
   list-style: none;
